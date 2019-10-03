@@ -5,7 +5,7 @@ public class Math {
         return b;
     }
     public boolean isOdd(int a){
-        boolean b = a%2==1;
+        boolean b =! isEven(a);
         return b;
     }
     public double circleField(double a){
