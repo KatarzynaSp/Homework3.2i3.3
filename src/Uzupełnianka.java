@@ -7,7 +7,7 @@
 //    4. Każda zmienna musi mieć określony typ, np. int, albo String.
 //    5. Jeżeli deklarację zmiennej poprzedzimy słowem final, to może być zainicjowana tylko raz, próba nadpisania wartości spowoduje błąd.
 //    6. W klasie mogą się znajdować pola klasy, metody i konstruktory.
-//    7. Inicjalizacje są wywoływane przez operator new i służą do tworzenia nowych obiektów.
+//    7. konstruktory są wywoływane przez operator new i służą do tworzenia nowych obiektów.
 //    8. Jeśli w klasie zdefiniowano chociaż jeden konstruktor to kompilator nie wygeneruje dla nas konstruktora domyślnego.
 //    9. Zakładając, że istnieje klasa Car, to przy zapisie:
 //           Car car1 = new Car(„BMW”, „M5”, 2007, 2.6);
